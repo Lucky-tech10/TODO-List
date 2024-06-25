@@ -1,0 +1,32 @@
+/* Style the header */
+.header {
+  background-color: #f44336;
+  padding: 30px 40px;
+  color: white;
+  text-align: center;
+}
+
+ul {
+  padding: 0px;
+}
+/* Style the list items */
+ul li {
+  cursor: pointer;
+  position: relative;
+  padding: 12px 8px 12px 20px;
+  display: grid;
+  column-gap: 10px;
+  grid-template-columns: 40px 600px 10px !important;
+  background: #eee;
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+/* Style the checkbox */
+input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+.close {
+  font-weight: bolder;
+}
